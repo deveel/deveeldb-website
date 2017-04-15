@@ -14,7 +14,7 @@ description              : "An amazing website."
 url                      : "https://db.deveel.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "deveel/deveeldb-website"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/teaser.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
@@ -60,7 +60,7 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : /assets/images/site-logo.png
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
@@ -111,6 +111,7 @@ author:
 include:
   - .htaccess
   - _pages
+  - _docs
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -183,6 +184,7 @@ gems:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-github-metadata
   - jemoji
 
 # mimic GitHub Pages with --safe
