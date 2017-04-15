@@ -11,7 +11,7 @@ title                    : "DeveelDB"
 title_separator          : "-"
 name                     : "Deveel"
 description              : "An amazing website."
-url                      : 
+url                      : https://db.deveel.org
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "deveel/deveeldb-website"
 teaser                   : "/assets/images/teaser.png"
