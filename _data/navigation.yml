@@ -5,7 +5,7 @@ main:
   - title: "Getting Started"
     url: /doc/v2.0/getting-started
 
-docs2.0:
+docs20:
   - title: "Getting Started"
     url: /doc/v2.0/getting-started
   - title: "Configurations"
