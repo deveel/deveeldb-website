@@ -3,7 +3,7 @@
     <div class="masthead__menu">
       <nav id="site-nav" class="greedy-nav">
 	    <a href="{{ '/' | absolute_url }}">
-			<img src="{{ site.url }}/assets/images/logo.png" class="site-title" alt="{{site.title}}"/>
+			<img src="{{ '/' | absolute_url }}/assets/images/logo.png" class="site-title" alt="{{site.title}}"/>
 		</a>
         <ul class="visible-links">
           {% for link in site.data.navigation.main %}
