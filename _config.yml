@@ -246,7 +246,7 @@ defaults:
       comments: # true
       share: true
       related: true
-  # _doc/deveeldb2.0
+  # _doc/deveeldb-2.0
   - scope:
       path: ""
       type: doc
@@ -256,4 +256,4 @@ defaults:
       comments: false
       share: false
       sidebar:
-        nav: "docs2.0"
+        nav: "docs20"
