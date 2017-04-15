@@ -30,17 +30,17 @@ The most likely alternative to use the functionalities of **DeveelDB** is to ref
 
 |     Phase     |  Source | Package Feed URL |
 |---------------|---------|------------------|
-| _Development_ | MyGet   | https://www.myget.org/feed/Packages/deveeldb  |
-| _Stage_       | NuGet   | http://nuget.org |
-| _Production_  | NuGet   | http://nuget.org |
+| _Development_ | MyGet   | https://www.myget.org/F/deveeldb/api/v2  |
+| _Stage_       | NuGet   | https://www.nuget.org/api/v2 |
+| _Production_  | NuGet   | https://www.nuget.org/api/v2 |
 
 Once referenced the sources in the NuGet.config ([read this guide hoow to make it](https://docs.microsoft.com/en-us/nuget/consume-packages/configuring-nuget-behavior)), it is possible to install one of the following packages
 
 |   Package Name |  Architecture   |
 |----------------|-----------------|
 | deveeldb       | Any CPU         |
-| deveeldb.x86   | Windows 32 Bit  |
-| deveeldb.x64   | Windows 64 Bit  |
+| deveeldb-x86   | Windows 32 Bit  |
+| deveeldb-x64   | Windows 64 Bit  |
 
 
 ### Download Compressed Archives
