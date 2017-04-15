@@ -4,6 +4,7 @@ main:
     url: /about
   - title: "Getting Started"
     url: /doc/v2.0/getting-started
+
 docs2.0:
   - title: "Getting Started"
     url: /doc/v2.0/getting-started
