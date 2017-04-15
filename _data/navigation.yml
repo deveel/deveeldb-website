@@ -2,3 +2,5 @@
 main:
   - title: "About"
     url: /about
+  - title: "Getting Started"
+    url: /doc/v2.0/getting-started
