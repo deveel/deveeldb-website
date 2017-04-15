@@ -1,13 +1,5 @@
 ---
 permalink: /about
-defaults:
-  - scope:
-      path: ''
-      type: pages
-    values:
-      layout: single
-      author_profile: false
-published: true
 title: About
 excerpt: DeveelDb is a SQL-99 database system for .NET
 layout: single

@@ -5,13 +5,13 @@ main:
   - title: "Getting Started"
     url: /doc/v2.0/getting-started
 
-docs20:
+docs2.0:
   - title: "Getting Started"
     url: /doc/v2.0/getting-started
   - title: "Configurations"
     url: /doc/v2.0/configure
   - title: "The SQL Model"
-  children:
+    children:
     - title: "Primitive Types"
       url: /doc/v2.0/sql/primitive-types
     - title: "Database Objects"

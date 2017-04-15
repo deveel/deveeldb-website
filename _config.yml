@@ -232,7 +232,11 @@ compress_html:
   ignore:
     envs: development
 
-
+collections:
+  doc:
+    output: true
+    permalink: /:collection/:path
+  
 # Defaults
 defaults:
   # _posts
@@ -246,14 +250,15 @@ defaults:
       comments: # true
       share: true
       related: true
-  # _doc/deveeldb-2.0
+  # _doc/v2.0
   - scope:
-      path: ""
+      path: "_doc/v2.0"
       type: doc
     values:
       layout: single
       author_profile: false
       comments: false
       share: false
+      breadcrumbs: true
       sidebar:
-        nav: "docs20"
+        nav: "docs2.0"
